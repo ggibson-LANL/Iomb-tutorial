@@ -1,26 +1,180 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>ILAMB Tutorial</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ILAMB/IOMB Tutorial - CAMAS Workshop</title>
+
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #222;
+      background-color: #fafafa;
+    }
+
+    h1 {
+      color: #0b3d91;
+      border-bottom: 3px solid #0b3d91;
+      padding-bottom: 8px;
+    }
+
+    h2 {
+      color: #163a70;
+      margin-top: 30px;
+    }
+
+    .step {
+      background: #ffffff;
+      border-left: 5px solid #0b3d91;
+      padding: 18px;
+      margin: 25px 0;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    .note {
+      background: #eef4ff;
+      border-left: 4px solid #4a7bd1;
+      padding: 12px;
+      border-radius: 6px;
+      margin-top: 10px;
+    }
+
+    .screenshot {
+      margin-top: 15px;
+      padding: 10px;
+      border: 2px dashed #bbb;
+      border-radius: 6px;
+      text-align: center;
+      background: #f9f9f9;
+      font-size: 14px;
+      color: #555;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 6px;
+      margin-top: 10px;
+    }
+
+    code {
+      background: #f1f1f1;
+      padding: 3px 6px;
+      border-radius: 4px;
+      font-family: Consolas, monospace;
+    }
+
+    pre {
+      background: #f4f4f4;
+      padding: 14px;
+      border-radius: 6px;
+      overflow-x: auto;
+    }
+
+    a {
+      color: #005ea2;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .header-box {
+      background: #0b3d91;
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+  </style>
 </head>
+
 <body>
 
-<h1>ILAMB Tutorial Start Page</h1>
+  <div class="header-box">
+    <h1>ILAMB/IOMB Tutorial</h1>
+    <p>CAMAS Early Career Workshop</p>
+  </div>
 
-<p>This page helps you get started with the tutorial.</p>
+  <p>
+    This page provides the <strong>quick-start instructions</strong> for accessing the tutorial
+    on NERSC Perlmutter.
+  </p>
 
-<h2>Start here (easiest way)</h2>
-<ol>
-  <li>Go to <a href="https://jupyter.nersc.gov">jupyter.nersc.gov</a></li>
-  <li>Log in with your NERSC account</li>
-  <li>Start a Jupyter session</li>
-  <li>Open the tutorial notebook</li>
-</ol>
+  <div class="note">
+    These instructions assume you already have a NERSC account.
+  </div>
 
-<h2>Repository</h2>
-<p>
-  <a href="#">Link to tutorial repo (add later)</a>
-</p>
+  <div class="step">
+    <h2>Step 1 — Sign in to NERSC JupyterHub</h2>
+    <p>
+      Go to:
+      <br>
+      <a href="https://jupyter.nersc.gov/hub/login" target="_blank">
+        https://jupyter.nersc.gov/hub/login
+      </a>
+    </p>
+    <p>Log in and complete MFA.</p>
+    <div class="screenshot">
+      📸 Add screenshot here: NERSC login page + MFA prompt  
+      <br>File name: <code>step1_login.png</code>
+    </div>
+    <img src="images/step1_login.png" alt="NERSC login page">
+  </div>
+
+  <div class="step">
+    <h2>Step 2 — Start a session</h2>
+    <p>
+      Click the <strong>START</strong> button to launch a login node.
+    </p>
+    <div class="screenshot">
+      📸 Add screenshot here: JupyterHub "START" button screen  
+      <br>File name: <code>step2_start.png</code>
+    </div>
+    <img src="images/step2_start.png" alt="Start button screen">
+  </div>
+
+  <div class="step">
+    <h2>Step 3 — Open your scratch space</h2>
+    <p>Click <code>$PSCRATCH</code> in the left file browser.</p>
+    <p>Open <strong>Launcher → Terminal</strong>.</p>
+    <p>Example path:</p>
+    <pre>/pscratch/sd/g/your_username</pre>
+    <div class="screenshot">
+      📸 Add screenshot here: JupyterLab showing PSCRATCH + Launcher + Terminal  
+      <br>File name: <code>step3_terminal.png</code>
+    </div>
+    <img src="images/step3_terminal.png" alt="Terminal in PSCRATCH">
+  </div>
+
+  <div class="step">
+    <h2>Step 4 — Copy the CAMAS tutorial files</h2>
+    <p>Run this command in the terminal:</p>
+    <pre>cp -rf /global/cfs/cdirs/ntrain5/CAMAS $PSCRATCH</pre>
+    <div class="screenshot">
+      📸 Add screenshot here: Terminal showing copy command executed  
+      <br>File name: <code>step4_copy.png</code>
+    </div>
+    <img src="images/step4_copy.png" alt="Copy command">
+  </div>
+
+  <div class="step">
+    <h2>Step 5 — Open the tutorial notebook</h2>
+    <p>Navigate to:</p>
+    <p><code>$PSCRATCH → CAMAS</code></p>
+    <p>Open:</p>
+    <p><code>ILAMB_tutorial.ipynb</code></p>
+    <div class="screenshot">
+      📸 Add screenshot here: File browser with CAMAS folder and notebook  
+      <br>File name: <code>step5_notebook.png</code>
+    </div>
+    <img src="images/step5_notebook.png" alt="Notebook location">
+  </div>
 
 </body>
 </html>
