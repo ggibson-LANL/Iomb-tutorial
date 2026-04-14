@@ -6,7 +6,7 @@ This repository contains the materials for the ILAMB/IOMB tutorial used in the C
 
 ## Contents
 
-- `ILAMB_tutorial.ipynb` — main tutorial notebook
+- `Notebook/ILAMB_tutorial.ipynb` — main tutorial notebook
 - `CAMAS/` — required input data files
 
 ---
