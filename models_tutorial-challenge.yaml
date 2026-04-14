@@ -1,0 +1,12 @@
+CanESM5:
+  modelname: CanESM5-1
+  color: "#393b79"
+  path: /pscratch/sd/g/georgina/esgf_cache/CMIP6/CMIP/CCCma/CanESM5-1/historical/r1i1p1f1/Omon/chl/gn/v20190429
+
+CanESM5_CanOE:
+  modelname: CanESM5-CanOE
+  color: "#637939"
+  path: /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/CCCma/CanESM5-CanOE/historical/r3i1p2f1/Omon/chl/gn/v20190429
+
+
+

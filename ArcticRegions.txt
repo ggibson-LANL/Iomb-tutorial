@@ -1,0 +1,4 @@
+#label,name,lat_min,lat_max,lon_min,lon_max
+chukchi,Chukchi Sea,66,75,-180,-155
+beaufort,Beaufort Sea,68,80,-155,-125
+
