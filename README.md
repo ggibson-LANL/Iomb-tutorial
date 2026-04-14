@@ -6,7 +6,7 @@ This repository contains the materials for the ILAMB/IOMB tutorial used in the C
 
 ## Contents
 
-- `Notebook/ILAMB_tutorial.ipynb` — main tutorial notebook
+- ### Main tutorial notebook: https://github.com/ggibson-LANL/Iomb-tutorial/blob/main/Notebook/ILAMB_tutorial.ipynb
 - `CAMAS/` — required input data files
 
 ---
