@@ -22,5 +22,5 @@ Follow the login / setup instructions here:
 
 ### Option 2 — Run locally
 
-1. Use the iomb_tutorial notebook as a guide but download the config and yaml files for use with your local ILAMB installation.
+1. Use the iomb_tutorial notebook as a guide but download the CAMAS folder with the tutorial specific config and yaml files for use with your local ILAMB installation.
 
