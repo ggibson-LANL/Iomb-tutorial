@@ -6,7 +6,7 @@ This repository contains the materials for the ILAMB/IOMB tutorial used in the C
 
 ## Contents
 
-- ### Overvioe of the ILAMB/IOMB Benchmarking tool:
+- ### Overview of the ILAMB/IOMB Benchmarking tool:
 - https://ggibson-lanl.github.io/Iomb-tutorial/Presentations/CAMAS_IOMB_TUTORIAL_Gibson_April_2026.pdf
 
 - ### Accessing tutorial on NERSC:
